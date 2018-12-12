@@ -44,7 +44,7 @@ void ShellSort(int list[],int n){
 */
 
 //Heapsort
-
+/*
 void ProcDown(int list[],int i,int n);
 void Heapsort(int list[],int n);
 void Swap(int &a,int &b);
@@ -75,13 +75,16 @@ void Heapsort(int list[],int n){
         ProcDown(list,0,i);
     }
 }
+*/
+
+//Merge Sort
 
 
 int main(){
     int Unordered[8]{3,1,4,5,9,2,6,5};
     // InsertionSort(Unordered,8);
     // ShellSort(Unordered,8);
-    Heapsort(Unordered,8);
+    //Heapsort(Unordered,8);
     for(int i = 0;i < 8;i++)
     cout<<" "<<Unordered[i]<<" ";
     return 0;
