@@ -78,6 +78,9 @@ void Heapsort(int list[],int n){
 */
 
 //Merge Sort
+void MSort(int Firstlist[],int Secondlist[],int left,int right);
+void Merge(int Firstlist[],int Secondlist[],int LPos,int RPos,int RightEnd);
+void MergeSort(int list[],int n);
 
 
 int main(){
